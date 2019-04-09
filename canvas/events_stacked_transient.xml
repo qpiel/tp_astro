@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<observation_list title="observation list">
+  <observation name="event" id="1" instrument="CTA">
+    <parameter name="EventList" file="TP_VarFoV_event_selected1.fits" />
+    <parameter name="Calibration" database="Prod2" response="South_5h" />
+  </observation>
+  <observation name="event" id="2" instrument="CTA">
+    <parameter name="EventList" file="TP_VarFoV_event_selected2.fits" />
+    <parameter name="Calibration" database="Prod2" response="South_5h" />
+  </observation>
+  <observation name="event" id="3" instrument="CTA">
+    <parameter name="EventList" file="TP_VarFoV_event_selected3.fits" />
+    <parameter name="Calibration" database="Prod2" response="South_5h" />
+  </observation>
+</observation_list>
