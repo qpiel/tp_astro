@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 powerlaw = lambda x,norm,index, : norm * (x / 1.) ** (-index / 1.) 
 
 
+################################################### Donnees a remplir ###################################################
 #Source 1
 #Points Fermi
 x=[]
@@ -18,6 +19,7 @@ for i in range(0,len(data)):
 z = np.polyfit(x, y, 2)
 xx = np.linspace(np.min(x),np.max(x))
 p = np.poly1d(z)
+
 print("Source 1 : Energy maximum : "+ str(np.power(10,x[np.argmax(p(x))])*1e12) + " eV")
 
 
@@ -40,7 +42,7 @@ print("Source 2 : Energy maximum : "+ str(np.power(10,x2[np.argmax(p2(x2))])*1e1
 
 
 
-
+#Si l on veut faire un graphique des donnees. Mettre des commentaires si l on veut desactiver la production de graphique
 plt.plot(xx2,p(xx2),label='model')
 plt.plot(x2,y2,'o',label='data')
 #plt.loglog()
