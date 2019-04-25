@@ -1,9 +1,0 @@
-2019-04-24T19:15:42: ********************************************************************************
-2019-04-24T19:15:42: *                                   ctskymap                                   *
-2019-04-24T19:15:42: * ---------------------------------------------------------------------------- *
-2019-04-24T19:15:42: * Version: 1.5.0                                                               *
-2019-04-24T19:15:42: ********************************************************************************
-2019-04-24T19:15:48: *** ERROR encounterted in the execution of ctskymap. Run aborted ...
-2019-04-24T19:15:48: *** ERROR in ctool::setup_observations(GObservations&): Invalid value. The "inobs" parameter "RXJ1713_events.fits" specifies a file that does not exist. Please specify  a valid event list, counts cube or  observation definition XML file.
-2019-04-24T19:15:48: 
-2019-04-24T19:15:48: Application "ctskymap" terminated after 6 wall clock seconds, consuming 0.005083 seconds of CPU time.
