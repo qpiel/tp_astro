@@ -1,0 +1,9 @@
+2019-04-24T19:15:50: ********************************************************************************
+2019-04-24T19:15:50: *                                     ctbin                                    *
+2019-04-24T19:15:50: * ---------------------------------------------------------------------------- *
+2019-04-24T19:15:50: * Version: 1.5.0                                                               *
+2019-04-24T19:15:50: ********************************************************************************
+2019-04-24T19:15:54: *** ERROR encounterted in the execution of ctbin. Run aborted ...
+2019-04-24T19:15:54: *** ERROR in ctool::setup_observations(GObservations&): Invalid value. The "inobs" parameter "RXJ1713_events.fits" specifies a file that does not exist. Please specify  a valid event list, counts cube or  observation definition XML file.
+2019-04-24T19:15:54: 
+2019-04-24T19:15:54: Application "ctbin" terminated after 4 wall clock seconds, consuming 0.00517 seconds of CPU time.
