@@ -8,7 +8,7 @@ e_mjd     = []
 flux      = []
 e_flux    = []
 
-for i in range(0,len(data[1].data))
+for i in range(0,len(data[1].data)):
     mjd.append(data[1].data[i][0])
     e_mjd.append(data[1].data[i][1])
     flux.append(data[1].data[i][2])
