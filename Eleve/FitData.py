@@ -1,4 +1,3 @@
-import Function as func
 import numpy,scipy.optimize
 import matplotlib.pyplot as plt
 
